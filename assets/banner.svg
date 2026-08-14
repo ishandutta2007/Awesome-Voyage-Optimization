@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001F3F" />
+      <stop offset="100%" stop-color="#0074D9" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <rect width="800" height="200" fill="url(#bg-grad)" rx="15" ry="15" />
+  
+  <!-- Dynamic animated waves -->
+  <path d="M0,150 Q100,120 200,150 T400,150 T600,150 T800,150 L800,200 L0,200 Z" fill="#7FDBFF" opacity="0.6">
+    <animate attributeName="d" 
+             values="M0,150 Q100,120 200,150 T400,150 T600,150 T800,150 L800,200 L0,200 Z;
+                     M0,150 Q100,180 200,150 T400,150 T600,150 T800,150 L800,200 L0,200 Z;
+                     M0,150 Q100,120 200,150 T400,150 T600,150 T800,150 L800,200 L0,200 Z" 
+             dur="5s" repeatCount="indefinite" />
+  </path>
+
+  <path d="M0,170 Q150,140 300,170 T600,170 T800,170 L800,200 L0,200 Z" fill="#39CCCC" opacity="0.8">
+    <animate attributeName="d" 
+             values="M0,170 Q150,140 300,170 T600,170 T800,170 L800,200 L0,200 Z;
+                     M0,170 Q150,200 300,170 T600,170 T800,170 L800,200 L0,200 Z;
+                     M0,170 Q150,140 300,170 T600,170 T800,170 L800,200 L0,200 Z" 
+             dur="7s" repeatCount="indefinite" />
+  </path>
+  
+  <text x="50%" y="45%" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#ffffff" text-anchor="middle" filter="url(#glow)">Awesome Voyage Optimization</text>
+  <text x="50%" y="65%" font-family="Arial, sans-serif" font-size="16" fill="#DDDDDD" text-anchor="middle">SaaS &amp; Open-Source Ship Routing Tools</text>
+</svg>
