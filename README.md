@@ -48,7 +48,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 *Sorted by GitHub Star Counts (Descending).*
 
-| Project 📦 | Description 📝 | Stars ⭐ | Notes 💡 |
+| Project 📦 | Description 📝 | Github_Stars ⭐ | Notes 💡 |
 |---------|-------------|-------|-------|
 | **[SIMROUTE](https://github.com/ManelGrifoll/SIMROUTE)** | Weather ship routing code using Copernicus Marine wave predictions and A* algorithm for optimized routes, emissions estimation, and safety monitoring. | [![Stars](https://img.shields.io/github/stars/ManelGrifoll/SIMROUTE?style=social&color=white)](https://github.com/ManelGrifoll/SIMROUTE/stargazers) | Python routing tool |
 | **[Weather Routing Tool (52°North)](https://github.com/52North/WeatherRoutingTool)** | Python package for optimizing ship routes based on fuel consumption under varying weather conditions, featuring isofuel and genetic algorithms. | [![Stars](https://img.shields.io/github/stars/52North/WeatherRoutingTool?style=social&color=white)](https://github.com/52North/WeatherRoutingTool/stargazers) | 52°North development |
